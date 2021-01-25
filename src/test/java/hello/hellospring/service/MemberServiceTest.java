@@ -27,10 +27,10 @@ class MemberServiceTest {
         memberService = new MemberService(memberRepository);
     }
 
-    @AfterEach
+/*    @AfterEach
     public void afterEach(){
         memberRepository.clearStore();
-    }
+    }*/
 
     @Test
     void 회원가입() {
